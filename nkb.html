@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1F252E;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #272727;
+            padding: 1.5rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            border-radius: 0.3rem;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover,
+        nav a.active {
+            background-color: #00E8F8;
+            color: #1F252E;
+        }
+
+        section {
+            text-align: center;
+            margin: 4rem auto;
+            max-width: 800px;
+        }
+
+        .main h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .main p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .social a {
+            color: #00E8F8;
+            font-size: 1.5rem;
+            margin: 0 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .social a:hover {
+            color: #fff;
+        }
+
+        .images img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Logo</a>
+        </div>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="main">
+            <div class="detail">
+                <h1>Hi, It's Me<br>I'm <span style="color:#00E8F8;">Nayan Kumar Biradar</span></h1>
+                <p>A Frontend Developer</p>
+                <div class="social">
+                    <a href="https://github.com/nkbiradar/"><i class="bi bi-github"></i></a>
+                    <a href="https://web.telegram.org/k/"><i class="bi bi-telegram"></i></a>
+                    <a href="https://www.linkedin.com/in/nayan-kumar-biradar-a07013248/"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.instagram.com/nk_biradar_/"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="images">
+                <img src="https://o.remove.bg/uploads/5df62a40-0188-4c9c-8817-0bcfb1fc0845/WhatsApp_Image_2024-04-04_at_02.32.49_34c082b8.jpg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
